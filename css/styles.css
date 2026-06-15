@@ -194,6 +194,9 @@ ul {
 .team {
   background-color: #e7e9fc;
   text-align: center;
+  height:732px;
+  padding: 160px 0;
+  gap:32px;
 }
 
 .team h2 {
@@ -202,6 +205,7 @@ ul {
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.02em;
+  margin-bottom: 60px;
 }
 
 .team ul {
