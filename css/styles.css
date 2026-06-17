@@ -61,8 +61,7 @@ ul {
 }
 
 .container {
-  width: 1158x;
-  height: 72px;
+  width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -211,10 +210,8 @@ ul {
 
 .values ul {
   display: flex;
-  gap: 20px;
-  justify-content: center;
+  gap: 24px;
   align-items: flex-start;
-  width: 100%;
 }
 
 .values li {
@@ -239,7 +236,6 @@ ul {
 
 .team ul {
   display: flex;
-  justify-content: center;
   gap: 24px;
 }
 
@@ -255,6 +251,13 @@ ul {
 .team img {
   display: block;
   width: 100%;
+}
+
+.team-card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-top: 32px;
 }
 
 h3 {
@@ -285,10 +288,7 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-  justify-content: flex-start;
-  width: 1128px;
-  margin: 0 auto;
-  padding: 0;
+  text-align: left;
 }
 
 .portfolio li {
@@ -332,7 +332,7 @@ h3 {
 .footer {
   background-color: #2e2f42;
   color: white;
-  padding: 100px 156px;
+  padding: 100px 0;
 }
 
 .logo-footer {
